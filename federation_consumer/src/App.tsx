@@ -53,12 +53,10 @@ const App: React.FC = () => {
           </RemoteComponent>
         </Card>
       </RemoteComponent>
-      <RemoteComponent>
         <Modal isOpen={isModalOpen} onClose={toggleModal} title="Example Modal">
           <p>This is a modal component.</p>
           <ProviderButton label="Close Modal" onClick={toggleModal} />
         </Modal>
-      </RemoteComponent>
     </div>
   );
 };
